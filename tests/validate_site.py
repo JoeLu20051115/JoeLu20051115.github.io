@@ -55,6 +55,7 @@ def main():
         "ICML 2026 SCALE Workshop",
         "CN 121982334 B",
         "Guangdong Provincial First Prize",
+        "139-5819-8588",
         "assets/Enqiao_Lu_CV.pdf",
     )
     forbidden = (
@@ -65,6 +66,7 @@ def main():
         "NeurIPS 2026",
         "PhD from NTU or NUS",
         "NTU Full Scholarship Summer Program",
+        "159-5715-1440",
     )
     mojibake = ("锛", "鈫", "闄嗘", "馃", "銆")
 
