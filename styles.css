@@ -110,6 +110,9 @@ body {
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
+    background: none;
+    border: 0;
+    padding: 0;
 }
 
 .nav-toggle span {
@@ -215,6 +218,16 @@ body {
 .contact-btn:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
+}
+
+.contact-btn-secondary {
+    background: transparent;
+    color: var(--text-white);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.contact-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
 }
 
 .contact-text {
@@ -408,6 +421,10 @@ body {
     font-style: italic;
 }
 
+.research-advisor a {
+    color: inherit;
+}
+
 .research-period {
     background: var(--primary-color);
     color: var(--text-white);
@@ -476,6 +493,10 @@ body {
     background: var(--secondary-color);
 }
 
+.publication-tag.review {
+    background: #7c3aed;
+}
+
 .publication-date {
     color: var(--text-light);
     font-size: 0.9rem;
@@ -490,6 +511,18 @@ body {
 .publication-title {
     font-size: 1.2rem;
     line-height: 1.6;
+}
+
+.publication-meta {
+    margin-top: 0.75rem;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #fbbf24;
+    outline-offset: 3px;
 }
 
 /* ===== Awards ===== */
@@ -806,5 +839,16 @@ body {
     .contact-btn {
         width: 100%;
         justify-content: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
     }
 }
