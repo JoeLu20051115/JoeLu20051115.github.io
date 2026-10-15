@@ -1,14 +1,15 @@
 # Enqiao Lu - Personal Website
 
-Personal academic website for Enqiao Lu, an undergraduate researcher at the School of Data Science, The Chinese University of Hong Kong, Shenzhen.
+Personal academic website for Enqiao Lu, a Computer Science and Technology undergraduate at the School of Data Science, The Chinese University of Hong Kong, Shenzhen. Content follows the October 2026 CV and includes an exchange at Nanyang Technological University (August-December 2026).
 
 Live site: <https://joelu20051115.github.io/>
 
 ## Research interests
 
-- LLM post-training and on-policy distillation
-- Efficient model architectures and optimization
-- Verifiable reasoning, long-horizon agents, and embodied AI
+- Embodied AI
+- LLM post-training
+- Reinforcement Learning
+- Multimodal large language models
 
 ## Repository structure
 
@@ -16,6 +17,6 @@ Live site: <https://joelu20051115.github.io/>
 - `styles.css` - responsive visual design
 - `script.js` - navigation and scroll interactions
 - `profile.png` - profile portrait
-- `assets/Enqiao_Lu_CV.pdf` - current English-Chinese CV
+- `assets/Enqiao_Lu_CV.pdf` - current English CV (October 2026)
 
 Contact: <124090411@link.cuhk.edu.cn>

@@ -317,6 +317,10 @@ body {
     box-shadow: var(--shadow-lg);
 }
 
+.education-card + .education-card {
+    margin-top: 2rem;
+}
+
 .education-header {
     display: flex;
     justify-content: space-between;
@@ -341,6 +345,7 @@ body {
 }
 
 .education-date {
+    display: inline-block;
     background: var(--primary-color);
     color: var(--text-white);
     padding: 0.5rem 1rem;
